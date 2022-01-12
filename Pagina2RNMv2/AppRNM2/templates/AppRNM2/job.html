@@ -1,0 +1,61 @@
+{% extends 'AppRNM2/index.html' %}
+{%load static%}
+	{% block content %}
+
+    <section id="page-header" class="parallax">
+        <div class="overlay"></div>
+       <div class="container">
+           <h1>JOB</h1>
+           <!--Start Breadcrumb-->
+         <!--   <div class="breadcrumb">
+               <ul>
+                   <li>
+                       <a href="index.html">Home</a>
+                   </li>
+                   <li>
+                       <a href="index.html#works">Services</a>
+                   </li>
+                   <li class="current">
+                       <a href="single-work.html">Job</a>
+                   </li>
+               </ul>
+           </div> -->
+           <!--End Breadcrumb-->
+       </div>
+   </section>
+   <!--End page-header -->
+   
+   <!--Start single-work -->
+   <section id="single-work" class="section">
+       <div class="container">
+           <div class="row">					
+               <div class="col-md-7">						
+                   <div id="single-work-slider" class="owl-carousel owl-theme">
+                       <div class="item"><img src="images/works/img4.jpg" alt=""></div>
+                       <div class="item"><img src="images/works/img5.jpg" alt=""></div>
+                       <div class="item"><img src="images/works/img6.jpg" alt=""></div>						 
+                   </div>	
+               </div>
+               
+               <!--Start Work Detail-->
+               <div class="col-md-5 work-detail">
+                       <h3 class="margin-bottom-15">Work Description </h3>	
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. </p>					
+                    
+                   <ul class="work-detail-list">
+                       <li><span>Category :</span>Business</li>
+                       <li><span>Client :</span>Newtheme</li>
+                       <li><span>Technoligies used :</span>HTML 5,CSS 3</li>
+                       <li><span>Tags :</span>Photography, Branding, Wordpress</li>
+                       <li><span>Date released :</span>January 22, 2015</li>
+                   </ul>
+                   
+                   <a href="#" class="btn btn-gray-border">Visit website</a>
+                   
+               </div>
+               <!--End Work Detail-->
+           </div> <!--/ row-->
+       </div> <!--/ container-->		
+   </section>
+
+    {% endblock %}
